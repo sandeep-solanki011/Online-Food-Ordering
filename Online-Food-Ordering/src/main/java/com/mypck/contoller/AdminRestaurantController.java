@@ -46,7 +46,7 @@ public class AdminRestaurantController {
         return new ResponseEntity<>(restaurant, HttpStatus.CREATED);
 
     }
-//
+
     @DeleteMapping("/{id}")
     public ResponseEntity<MessageResponse> deleteRestaurant(
             @RequestBody CreateRestaurantRequest req,
